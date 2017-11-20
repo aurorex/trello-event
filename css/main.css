@@ -1,0 +1,78 @@
+body{
+  background: #58D3F7;
+}
+header{
+  position: absolute;
+  width: 100%;
+  top:0;
+  right: 0;
+  left: 0;
+}
+nav{
+  width: 100%;
+  background: #58ACFA;
+}
+ nav button{
+   margin: 5px 5px;
+ }
+ nav h1{
+   display: inline-block;
+   margin: 5px 10%;
+   margin-right: 13%;
+   color: skyblue;
+ }
+ .buttons{
+   margin-top: 5px 0;
+ }
+ header h2,header p{
+   margin: 15px 5px;
+ }
+ header .menu{
+   margin:15px 0;
+   margin-left: 46%;
+ }
+ .buttons,header h2,header p,header p a{
+   display: inline-block;
+   color: white;
+ }
+ nav button,nav input, .buttons button{
+   display: inline-block;
+   border: none;
+   padding: 10px;
+   background-color: skyblue;
+   color: white;
+ }
+ section{
+   margin: 10% 0;
+ }
+ section p{
+   padding: 10px;
+   width:250px;
+   border: none;
+   background: #58ACFA;
+ }
+ #save{
+   display: inline-block;
+   border-color: white;
+ }
+ #list-container{
+   display: inline-block;
+ }
+ .div-style{
+   width:200px;
+   height: 150px;
+   background-color: white;
+   display: inline-block;
+ }
+.button-style{
+
+  background-color: yellow;
+}
+
+.button-style:before{
+  content:'GUARDAR';
+}
+
+.containerTareas-style{
+  display: inline-block;
+}
