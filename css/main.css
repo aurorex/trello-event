@@ -1,5 +1,7 @@
 body{
   background: #58D3F7;
+  margin: 0;
+  padding: 0;
 }
 header{
   position: absolute;
@@ -23,6 +25,7 @@ nav{
  }
  .buttons{
    margin-top: 5px 0;
+   margin-left: 19%;
  }
  header h2,header p{
    margin: 15px 5px;
@@ -56,30 +59,72 @@ nav{
    padding: 10px;
    width:250px;
    border: none;
-   background: #58ACFA;
- }
- #save{
-   display: inline-block;
-   border-color: white;
+   background: #2E97B3;
+   color: white;
  }
  #list-container{
    display: inline-block;
  }
+
  .div-style{
-   width:200px;
-   height: 150px;
+   width:170px;
+   height: 70px;
+   padding: 5px;
+   width: 250px;
    background-color: white;
    display: inline-block;
  }
-.button-style{
+ .input-style{
+   outline: none;
+   border:none;
+   width: 250px;
+   height: 30px;
+   background:#E4E8E9;
+ }
 
-  background-color: yellow;
+.button-style, .newButton-style{
+  outline: none;
+  border: none;
+  margin-top: 8px;
+  padding: 5px;
+  background-color: #5BF696;
+  color: white;
+  border-radius: 2px;
 }
-
 .button-style:before{
   content:'GUARDAR';
 }
-
-.containerTareas-style{
+.save-style{
   display: inline-block;
+
+  background:transparent;
+  margin: 0;
+  padding: 0;
+}
+.containerTareas-style{
+  padding: 10px;
+  margin-right: 5px;
+  display: inline-block;
+  background: white;
+
+}
+.newText-style{
+  background:white;
+  color: black;
+}
+.anchor-style{
+  width: 100%;
+  height:30px;
+  display: block;
+  color: gray;
+  background:#E4E8E9;
+}
+.textarea-class{
+  display: block;
+  background: #E4E8E9;
+}
+.newPharraphe-style{
+  background-color:#E4E8E9;
+  color:black;
+  border-radius: 5px;
 }
