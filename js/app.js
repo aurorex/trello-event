@@ -1,8 +1,9 @@
 window.addEventListener('load', function() {
   var text = document.getElementById('text');
   text.addEventListener('click', createList);
-
+  // funcion que crea listas
   function createList(event) {
+    // nuestro contenedor de listas tendra dentro un input  que agregara la nueva lista y un button para guardar lista
     var listContainer = document.getElementById('list-container');
     var div = document.createElement('div');
     var input = document.createElement('input');
@@ -17,9 +18,8 @@ window.addEventListener('load', function() {
   }
 
   var button = document.createElement('button');
-
   button.addEventListener('click', saveList);
-
+  // el button ejecutara la funcion de guardar una lista, y se creara otra ventana que contendra un anchor
   function saveList(event) {
     var save = document.getElementById('save');
     var containerTareas = document.createElement('div');
@@ -41,7 +41,7 @@ window.addEventListener('load', function() {
     save.classList.add('save-style');
 
     anchor.addEventListener('click', anchorList);
-
+    // el elemento anchor nos llevara a otra ventana que contendra un nuevo boton y un textarea en el que introduciremos varias tareas
     function anchorList(event) {
       var textArea = document.createElement('textarea');
       textArea.setAttribute('rows', '3');
@@ -56,7 +56,7 @@ window.addEventListener('load', function() {
       containerTareas.appendChild(newButton);
 
       newButton.addEventListener('click', positionList);
-
+      // el newButton ejecutara otra funcion de guardar nuestras tareas
       function positionList(event) {
         var valueTextarea = textArea.value;
         var newPharraphe = document.createElement('p');

@@ -14,73 +14,73 @@ nav{
   width: 100%;
   background: #2E97B3  ;
 }
- nav button{
-   margin: 5px 5px;
- }
- nav h1{
+nav button{
+  margin: 5px 5px;
+}
+nav h1{
    display: inline-block;
    margin: 5px 10%;
    margin-right: 13%;
    color: skyblue;
- }
- .buttons{
+}
+.buttons{
    margin-top: 5px 0;
    margin-left: 19%;
- }
- header h2,header p{
-   margin: 15px 5px;
- }
- header .menu{
-   margin:15px 0;
-   margin-left: 46%;
- }
- .buttons,header h2,header p,header p a{
+}
+header h2,header p{
+  margin: 15px 5px;
+}
+header .menu{
+  margin:15px 0;
+  margin-left: 46%;
+}
+.buttons,header h2,header p,header p a{
    display: inline-block;
    color: white;
- }
- nav input{
+}
+nav input{
    margin: 0;
    padding: 0;
    outline: none;
    border: none;
    background-color: inherit;
- }
- nav button,nav .input, .buttons button{
+}
+nav button,nav .input, .buttons button{
    display: inline-block;
    border: none;
    padding: 10px;
    background-color: skyblue;
    color: white;
- }
- section{
+}
+section{
    margin: 10% 0;
- }
- section p{
+}
+section p{
    padding: 10px;
    width:250px;
    border: none;
    background: #2E97B3;
    color: white;
- }
- #list-container{
-   display: inline-block;
- }
+}
+#list-container{
+  display: inline-block;
+}
 
- .div-style{
+.div-style{
    width:170px;
    height: 70px;
    padding: 5px;
    width: 250px;
    background-color: white;
    display: inline-block;
- }
- .input-style{
+}
+.input-style{
    outline: none;
    border:none;
    width: 250px;
    height: 30px;
    background:#E4E8E9;
- }
+}
 
 .button-style, .newButton-style{
   outline: none;
